@@ -38,7 +38,6 @@ export default {
     'errorCaptured': ['onError']
   },
   convert (options) {
-    
     if (options.properties) {
       const newProps = {}
       Object.keys(options.properties).forEach(key => {

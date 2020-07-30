@@ -9,7 +9,6 @@ import pageTitleMixin from './pageTitleMixin'
 import pageScrollMixin from './pageScrollMixin'
 import onResize from './pageOnResizeMixin'
 
-
 export default function getBuiltInMixins (options, type) {
   let bulitInMixins = []
   if (__mpx_mode__ === 'web') {
